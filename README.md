@@ -22,6 +22,3 @@ After each guess, the program gives hints and counts the number of attempts. The
 - random module
 
 ---
-
-## 📂 Project Structure
-
