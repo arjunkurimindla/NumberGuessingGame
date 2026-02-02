@@ -18,8 +18,10 @@ while nu!=guess:
             print(f"Guessed number {guess} matches with number {nu} in {count} attempts")
             play=input("want to play again {y/n}").lower()
             nu = playagain()
+            count=1
             if play!="y":
                 break
 
     except ValueError:
         print("enter valid input")
+
